@@ -1,0 +1,58 @@
+body {
+  background-color: #222;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+
+  .left {
+    margin-right: 10px;
+    .divCanvas {
+      box-shadow: 2px 5px 5px #111;
+      margin-bottom: 20px;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: #000;
+      canvas {
+        width: 600px;
+        height: 400px;
+      }
+    }
+
+    button {
+      background-color: #333;
+      color: #aaa;
+      padding: 10px 30px;
+      font-weight: bold;
+    }
+  }
+
+  .right {
+    .controls {
+      .box {
+        background-color: #000;
+        color: #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 5px 5px #111;
+        font-family: "Courier New", Courier, monospace;
+
+        h2 {
+          margin: 0px;
+        }
+
+        div {
+          display: inline-flex;
+          flex-direction: column;
+          padding: 0px 10px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

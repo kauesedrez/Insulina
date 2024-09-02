@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insulina</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left">
+
+      <h1>Insulina</h1>
+
+      <div class="divCanvas">
+        <canvas id="canvas" width="600" height="400" class="canvas"></canvas>
+      </div>
+
+      <button onclick="addNph()">Adicionar NPH</button>
+      <button onclick="addLispro()">Adicionar Lispro</button>
+
+    </div>
+    <div class="right">
+      <div id="controls" class="controls">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./Chart.bundle.min.js"></script>
+  <script src="./motor.js"></script>
+</body>
+
+</html>
